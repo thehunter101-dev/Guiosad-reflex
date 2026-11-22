@@ -1,0 +1,62 @@
+Codigo	Dimensión	Factor	Subfactor	GuiaVerificacion
+TEC-01-01	Tecnológica	Compatibilidad	Una empresa proporciona una infraestructura de nube lista para usar para este software	Buscar imágenes/plantillas cloud (AWS/Azure/GCP Marketplace, Helm charts, SaaS oficial).
+TEC-01-02	Tecnológica	Compatibilidad	Los programas informáticos pueden exportar formatos propietarios	Buscar exportadores/conversores a formatos propietarios (docx, xlsx, pst, etc.) en código o docs.
+TEC-01-03	Tecnológica	Compatibilidad	El software interactúa y se integra con el software propietario existente	Buscar conectores, APIs o plugins de integración con productos propietarios existentes.
+TEC-01-04	Tecnológica	Compatibilidad	El software está certificado para operar en su nicho de mercado	Buscar certificaciones del sector (ISO, HIPAA, PCI-DSS, FIPS, etc.) mencionadas en docs.
+TEC-01-05	Tecnológica	Compatibilidad	El software es compatible con los casos de uso y las funcionalidades más comunes	Revisar README/docs de funcionalidades frente a los casos de uso comunes del dominio.
+TEC-01-06	Tecnológica	Compatibilidad	El software es compatible con múltiples componentes de hardware	Buscar requisitos de hardware, arquitecturas soportadas (x86, ARM) y drivers.
+TEC-01-07	Tecnológica	Compatibilidad	El software utiliza formatos estándar	Buscar uso de formatos estándar abiertos (JSON, XML, CSV, ODF, OpenAPI) en código y docs.
+TEC-01-08	Tecnológica	Compatibilidad	El software es compatible con varios sistemas operativos diferentes (el software es multiplataforma)	Revisar CI, binarios publicados y docs de instalación para Windows, macOS y Linux.
+TEC-02-01	Tecnológica	Personalización	El acceso al código fuente es un incentivo para la organización	Verificar licencia FLOSS y disponibilidad pública del código fuente.
+TEC-02-02	Tecnológica	Personalización	El software se puede ampliar fácilmente para satisfacer las necesidades de la organización modificando el código fuente	Evaluar estructura modular del código, puntos de extensión y guía de contribución.
+TEC-02-03	Tecnológica	Personalización	Las innovaciones se introducen en el software a un ritmo rápido	Revisar frecuencia de releases, CHANGELOG y actividad de commits recientes.
+TEC-02-04	Tecnológica	Personalización	El software es fácil de personalizar sin necesidad de modificar el código fuente	Buscar configuración declarativa, temas, ajustes de administración sin tocar código.
+TEC-02-05	Tecnológica	Personalización	El software soporta nuevas funciones a través de módulos (el software es modular)	Buscar sistema de plugins/módulos/extensiones y su API.
+TEC-02-06	Tecnológica	Personalización	Hay un repositorio público de extensiones para este software	Buscar marketplace o registro público de extensiones/plugins.
+TEC-03-01	Tecnológica	Prueba	El software es fácil de desplegar y de probar	Buscar Dockerfile, docker-compose, instaladores, demo online o guía de inicio rápido.
+TEC-04-01	Tecnológica	Fiabilidad	El software es fiable y estable	Revisar suite de tests, cobertura, CI verde, releases estables (semver, LTS).
+TEC-04-02	Tecnológica	Fiabilidad	El software tiene un buen historial en cuanto a errores de seguridad (el software es seguro)	Buscar SECURITY.md, política de divulgación, CVEs y tiempo de corrección.
+TEC-04-03	Tecnológica	Fiabilidad	El software es más flexible que la solución propietaria	Comparar opciones de configuración/extensión frente a alternativas propietarias.
+TEC-04-04	Tecnológica	Fiabilidad	El software es más confiable que la solución propietaria	Buscar evidencia de estabilidad: LTS, uptime, adopción en producción.
+TEC-04-05	Tecnológica	Fiabilidad	El programa proporciona una amplia variedad de funciones de control de acceso	Buscar RBAC, autenticación (LDAP/SSO/OAuth), permisos y auditoría en código/docs.
+TEC-05-01	Tecnológica	Reusabilidad	La licencia permite extensiones propietarias	Clasificar la licencia: permisiva (MIT/Apache/BSD) permite extensiones propietarias; copyleft fuerte (GPL/AGPL) lo restringe.
+TEC-05-02	Tecnológica	Reusabilidad	El software se ofrece como una biblioteca / marco de trabajo	Verificar publicación como librería/framework (PyPI, npm, Maven) y API pública documentada.
+TEC-06-01	Tecnológica	Usabilidad	El software proporciona una interfaz gráfica de usuario (GUI)	Buscar interfaz gráfica (web/desktop), capturas de pantalla, frontend en el repositorio.
+TEC-06-02	Tecnológica	Usabilidad	El software es más fácil de usar que la alternativa propietaria	Buscar estudios o docs de UX, accesibilidad, guías de usuario.
+TEC-06-03	Tecnológica	Usabilidad	El software es fácil de aprender	Buscar tutoriales, onboarding, ejemplos y curva de aprendizaje documentada.
+TEC-06-04	Tecnológica	Usabilidad	El usuario está descontento con el software propietario	Requiere información de la organización: satisfacción con la solución propietaria actual.
+TEC-07-01	Tecnológica	Mantenibilidad	El software es mantenido activamente por los desarrolladores	Revisar fecha del último commit/release, issues atendidos y número de mantenedores activos.
+TEC-08-01	Tecnológica	Portabilidad	Una versión de aplicación móvil de este software está disponible	Buscar app móvil oficial (Android/iOS) o interfaz responsive.
+TEC-08-02	Tecnológica	Portabilidad	El software es independiente del sistema de administración de base de datos	Buscar soporte de múltiples motores de BD (ORM, drivers para PostgreSQL/MySQL/SQLite, etc.).
+TEC-09-01	Tecnológica	Documentación	El software está bien documentado	Revisar existencia y amplitud de docs (README, carpeta docs/, sitio de documentación).
+TEC-09-02	Tecnológica	Documentación	La documentación de desarrollo cubre todas las características	Comparar docs de desarrollo con módulos/APIs existentes en el código.
+TEC-09-03	Tecnológica	Documentación	La documentación está disponible en múltiples formatos	Buscar docs en HTML, PDF, man pages, ePub u otros formatos.
+TEC-09-04	Tecnológica	Documentación	La documentación es fácil de entender	Evaluar claridad: ejemplos, estructura, glosario.
+TEC-09-05	Tecnológica	Documentación	La documentación está actualizada	Comparar fecha de docs con la versión/release actual.
+TEC-09-06	Tecnológica	Documentación	La documentación está escrita por escritores especializados (no desarrolladores)	Buscar indicios de redacción técnica profesional (guía de estilo, equipo de docs).
+TEC-09-07	Tecnológica	Documentación	La documentación del software es de alta calidad	Evaluar calidad global: completitud, ejemplos, coherencia.
+TEC-09-08	Tecnológica	Documentación	El software viene con documentación de desarrollo	Buscar CONTRIBUTING, docs de arquitectura, API reference.
+TEC-09-09	Tecnológica	Documentación	El software viene con documentación de usuario	Buscar manual o guía de usuario final.
+TEC-09-10	Tecnológica	Documentación	La documentación del usuario cubre todas las características	Comparar guía de usuario con funcionalidades expuestas en la interfaz.
+TEC-09-11	Tecnológica	Documentación	Los formatos de datos están bien documentados	Buscar especificación de esquemas/formatos de datos (JSON Schema, OpenAPI, ERD).
+ORG-01-01	Organizacional	Formación	La adopción de este software permite a los usuarios mejorar las habilidades técnicas de TI	Requiere información de la organización: impacto en habilidades técnicas del personal.
+ORG-01-02	Organizacional	Formación	El personal de la organización puede aprender fácilmente por sí mismo a utilizar este software	Buscar tutoriales, cursos gratuitos y recursos de autoaprendizaje.
+ORG-01-03	Organizacional	Formación	El personal de la organización está capacitado para resolver problemas tecnológicos	Requiere información de la organización: capacidad técnica del personal.
+ORG-01-04	Organizacional	Formación	Los planes de entrenamiento de este software están disponibles	Buscar planes de formación oficiales, certificaciones o academias.
+ORG-02-01	Organizacional	Tiempo de adopción	Los requisitos de instalación y despliegue del software son fáciles de cumplir	Revisar requisitos de instalación y despliegue (dependencias, scripts, contenedores).
+ORG-02-02	Organizacional	Tiempo de adopción	El tiempo requerido para adoptar este software es bajo	Requiere información de la organización: tiempo estimado de adopción.
+ORG-03-01	Organizacional	Casos de estudio de adopción FLOSS	Hay informes públicos disponibles en Internet que describen el éxito de la adopción de este software	Buscar casos de éxito, lista de adoptantes (ADOPTERS.md) o informes públicos.
+ORG-04-01	Organizacional	Centralidad de la tecnología de la información	La adopción de este software mejora el entorno de trabajo de los usuarios	Requiere información de la organización: impacto en el entorno de trabajo.
+ORG-04-02	Organizacional	Centralidad de la tecnología de la información	Centralizar la infraestructura de TI ayuda a acelerar la adopción de este software	Requiere información de la organización: grado de centralización de la infraestructura TI.
+ORG-05-01	Organizacional	Apoyo de la alta dirección	La alta dirección apoya la adopción exitosa de este software	Requiere información de la organización: respaldo de la alta dirección.
+ORG-06-01	Organizacional	Bloqueo de proveedores	El software reduce las dependencias de los proveedores en su entorno	Verificar formatos abiertos, licencia FLOSS y ausencia de dependencias exclusivas de un proveedor.
+ORG-07-01	Organizacional	Soporte	El soporte de la comunidad para este software está disponible	Buscar foros, chat (Discord/Matrix/Slack), issues activos y Stack Overflow.
+ORG-07-02	Organizacional	Soporte	Soporte de expertos y consultores externos para consultas específicas está disponible	Buscar red de partners, consultores o integradores certificados.
+ORG-07-03	Organizacional	Soporte	El soporte comercial de este software está disponible 24/7/365	Buscar oferta de soporte comercial 24/7 con SLA.
+ORG-07-04	Organizacional	Soporte	Hay desarrolladores en su organización que saben cómo desarrollar este software	Requiere información de la organización: desarrolladores internos con conocimiento del software.
+ORG-07-05	Organizacional	Soporte	Soporte comercial para la personalización de software está disponible	Buscar empresas que ofrezcan personalización comercial.
+ORG-07-06	Organizacional	Soporte	Es fácil contratar personal informático en la comunidad que conozca este software	Requiere información de la organización/mercado laboral: disponibilidad de profesionales.
+ORG-08-01	Organizacional	Actitud hacia el cambio	El personal de la organización muestra poca resistencia al cambio tecnológico	Requiere información de la organización: resistencia al cambio tecnológico.
+ORG-08-02	Organizacional	Actitud hacia el cambio	El personal técnico encargado del despliegue y soporte en la organización respalda la adopción de este software	Requiere información de la organización: respaldo del equipo técnico.
+ECO-01-01	Económica	Coste total de propiedad	Es poco probable que haya costos ocultos al adoptar este software	Revisar modelo de negocio (open core, funciones de pago, licencias enterprise).
+ECO-01-02	Económica	Coste total de propiedad	La adopción de este software es menos costosa que la alternativa propietaria	Requiere información de la organización: comparación de costos con la alternativa propietaria.
